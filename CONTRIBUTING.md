@@ -34,7 +34,8 @@ uv run pytest
 [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/): `feat:`, `fix:`,
 `docs:`, `refactor:`, `test:`, `chore:`. Add `!` after the type for a breaking change.
 commitizen checks the message in the `commit-msg` hook. Releases use `cz bump`, which
-writes `CHANGELOG.md` and the tag, so a clean history is the changelog.
+writes the version and the tag. `CHANGELOG.md` is written by hand: describe user-facing
+changes there in the same PR.
 
 ## Decisions
 
